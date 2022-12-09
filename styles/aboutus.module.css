@@ -1,0 +1,7 @@
+.aboutus {
+    background-image: url('../public/images/background/bg-9.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+}

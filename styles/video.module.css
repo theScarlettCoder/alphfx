@@ -1,0 +1,23 @@
+.video::before {
+      content: '';
+      width: 100px;
+      height: 100px;
+      background-image: url("../public/img/shapes/shape_02.png");
+      background-repeat: no-repeat;
+      top: 10rem;
+      left: 15rem;
+      position: absolute;
+      z-index: 20;
+  }
+
+  .video::after {
+    content: '';
+    width: 120px;
+    height: 200px;
+    background-image: url("../public/img/shapes/shape_03.png");
+    background-repeat: no-repeat;
+    top: 20rem;
+    right: 10rem;
+    position: absolute;
+    z-index: 20;
+}

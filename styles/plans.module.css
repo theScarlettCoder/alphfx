@@ -1,0 +1,101 @@
+.plan {
+    position: relative;
+    flex: 33.33%;
+    display: flex;
+    gap: 1.5rem;
+    max-width: 33.33%;
+    padding: 30px 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0 10px 100px 0 rgba(77, 77, 119, 0.16);
+}
+.plan::before {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(240, 98, 154, 0.05);
+    bottom: -120px;
+    right: -130px;
+    border-radius: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+.plan::after {
+    content: '';
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: rgba(33, 150, 243, 0.02);
+    top: -120px;
+    right: -71px;
+    border-radius: 100%;
+    z-index: 0;
+    pointer-events: none;
+}
+.plan_last {
+    position: relative;
+    background: #48486b;
+    color: #fff;
+    flex: 33.33%;
+    display: flex;
+    gap: 1.5rem;
+    max-width: 33.33%;
+    padding: 30px 30px;
+    overflow: hidden;
+    border-radius: 5px;
+    z-index: 1;
+    box-shadow: 0 10px 100px 0 rgba(77, 77, 119, 0.16);
+}
+.plan_last::after {
+    content: '';
+    position: absolute;
+    background-image: url('../public/img/bg/plans.svg');
+    background-repeat: no-repeat;
+    bottom: -10rem;
+    right: 1px;
+    width: 400px;
+    height: 400px;
+    z-index: 0;
+}
+.button {
+    background: #2fd5c9;
+    border: 2px solid #2fd5c9;
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+.button:hover {
+    background: transparent;
+    color: #2fd5c9;
+    border: 2px solid #2fd5c9;
+    transition: all 0.2s ease-in-out;
+}
+.button_last {
+    background: transparent;
+    border: 2px solid #fff;
+    margin-top: 5px;
+    color: #fff;
+    font-weight: 500;
+    font-size: 14px;
+    padding: 9px;
+    width: 100%;
+    border-radius: 5px;
+    text-decoration: none !important;
+}
+.button_last:hover {
+    background: #2fd5c9;
+    color: #fff;
+    border: 2px solid transparent;
+    transition: all 0.2s ease-in-out;
+}
+.active {
+    background-color: #fff;
+    border-radius: 5px;
+    color: #37386e;
+}

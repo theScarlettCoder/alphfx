@@ -1,0 +1,19 @@
+.support {
+    padding: 180px 0 100px;
+    position: relative;
+    min-height: 500px;
+    background: #f2f7fb;
+}
+.support_button {
+    color: #727888;
+    background-color: #FFF;
+    padding: 10px 20px;
+    display: inline-block;
+    font-weight: 500;
+    margin-top: 10px;
+    box-shadow: 0 10px 100px 0 rgb(77 77 119 / 16%);
+    letter-spacing: .05px;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 6px;
+}

@@ -1,0 +1,3 @@
+.Trade, .Withdraw {
+    @apply h-[1rem] bg-black p-7;
+}
